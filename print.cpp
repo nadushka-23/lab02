@@ -1,4 +1,4 @@
 #include "print.hpp"
 void print(const std::string& text, std::ostream& out) {
-    out << text;
+    out << text << std::endl;
 }
